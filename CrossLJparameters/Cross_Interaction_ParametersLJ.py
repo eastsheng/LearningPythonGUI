@@ -40,12 +40,10 @@ energyj.grid(padx=5,pady=5,row=1,column=2)
 unite =Label(root,text="ev")
 unite.grid(padx=5,pady=5,row=1,column=3)
 
-
 btn = Button(root,text="Calculate",command=CrossLJE,cursor="heart")
 btn.grid(padx=5,pady=5,row=2,column=0)
 oute =Label(root,font="Times 10 bold")
 oute.grid(padx=5,pady=5,row=2,column=1,columnspan=2)
-
 
 distancen = Label(root,text="Distance",font="Times 15 bold",fg="gray")
 distancen.grid(row=3)
