@@ -6,3 +6,5 @@ Learning Python GUI, tkinter...
 > - Energy e_i e_j ev(unit)
 > - Distance r_i r_j Angstrom(unit)
 
+## LearnGUItkinter
+> - Python GUI 设计 tkinter codes
