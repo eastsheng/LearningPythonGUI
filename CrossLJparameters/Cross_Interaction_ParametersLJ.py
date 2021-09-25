@@ -1,4 +1,10 @@
-# A GUI program to calculate the cross interaction LJ parameters 
+"""
+A GUI program to calculate the cross interaction LJ parameters.
+The default unit is ev,Angstrom, and the result is independent of the unit,
+depending on the unit you enter.
+The "pair_modify mix geometric" in lammps input file can complete the py
+
+"""
 from tkinter import *
 import numpy as np
 
@@ -59,10 +65,8 @@ unitr.grid(padx=5,pady=5,row=3,column=3)
 btn = Button(root,text="Calculate",command=CrossLJD,cursor="heart")
 btn.grid(padx=5,pady=5,row=4,column=0)
 
-
 outr =Label(root,font="Times 10 bold")
 outr.grid(padx=5,pady=5,row=4,column=1,columnspan=2)
-
 
 quit = Button(root,text="Quit",command=root.quit,cursor="heart")
 quit.grid(pady=10,row=5,columnspan=4)
