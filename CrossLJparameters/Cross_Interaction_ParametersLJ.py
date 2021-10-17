@@ -8,6 +8,8 @@ The "pair_modify mix geometric" in lammps input file can complete the py
 from tkinter import *
 import numpy as np
 
+
+
 def CrossLJE():
 	ei = eval(energyi.get())
 	ej = eval(energyj.get())
