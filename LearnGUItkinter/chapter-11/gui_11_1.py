@@ -25,8 +25,7 @@ btn = Button(root,text="Click Me",command=buttonClicked)
 btn.pack(anchor=S)
 
 varPython = BooleanVar()
-cbnPython = Checkbutton(root,text="Python",varialbe=varPython,
-	command=pythonClicked)
+cbnPython = Checkbutton(root,text="Python",varialbe=varPython,command=pythonClicked)
 
 
 lab = Label(root,bg="lightyellow",fg="blue",height=2,width=12)
